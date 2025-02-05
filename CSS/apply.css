@@ -1,0 +1,140 @@
+.welcome_apply {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.apply_block {
+    margin: 30px;
+    background-color: white;
+    width: 100%;
+    
+}
+
+.apply_block img{
+    height: 200px;
+    width: 200px;
+}
+
+
+.apply_block h3 {
+    float: left;
+    background-color: #663399;
+    width: 30%;
+    border: 1px solid black;
+    border-bottom: none;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    margin: 0;
+}
+
+.technology_zone{
+    display: block;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.innovation_zone,
+.ecology_zone {
+    display: none;
+    border-radius: 5px 10px 10px;
+}
+
+/* .head_tech:hover, 
+.head_innovation:hover, 
+.head_ecology:hover {
+    background-color: white;
+    color: black;
+} */
+
+.apply_block form {
+    font-size: 13px;
+    background-color: white;
+    clear: left;
+    border: 1px solid black;
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* .apply_block form:hover {
+    background-color: white;
+} */
+
+/* .technology_zone:hover, 
+.innovation_zone:hover,
+.ecology_zone:hover,
+.head_tech:hover ~ .technology_zone,
+.head_innovation:hover ~ .innovation_zone,
+.head_ecology:hover ~ .ecology_zone {
+    display: block;
+    margin-top: 20px;
+    background-color: #E6E6FA;
+} */
+
+/* .head_tech:has(~ .technology_zone:hover),
+.head_innovation:has(~ .innovation_zone:hover),
+.head_ecology:has(~ .ecology_zone:hover) {
+    background-color: white;
+    color: black;
+} */
+
+.technology_zone form,
+.innovation_zone form,
+.ecology_zone form {
+    display: inline-block;
+    margin: 2%;
+}
+
+#result {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#result h2 {
+    padding: 20px 0 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+#result p {
+    display: block;
+    padding: 10px 0 0;
+    width: 100%;
+}
+
+#result input {
+    margin: 10px 5px 20px;
+}
+
+#result_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#result_table th {
+    color: white;
+    background-color: #663399;
+    padding: 15px;
+    font-size: 16px;
+}
+
+#result_table td {
+    padding: 15px;
+    font-size: 14px;
+}
+
+#result_table tr {
+    background-color: #E6E6FA;
+}
+
+#result_table tr:nth-child(odd) {
+    background-color: #F0E6FF;
+}
+
+#result_table tr:hover {
+    background-color: #D8BFD8;
+}
+

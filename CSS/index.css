@@ -1,0 +1,169 @@
+#welcome_home {
+    margin-bottom: 20px;
+    background: linear-gradient(#6dc4da, #ddf1f5 )
+}
+
+.location {
+    display: block;
+    float: left;
+    padding: 10px 10px;
+    width: 45%;
+    font-size: 1.5em;
+}
+
+#information_home dl {
+    margin: 0;
+}
+
+#information_home dt {
+    font-weight: bold;
+}
+
+#information_home dd {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+#map_and_apply_home dt {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#map_and_apply_home dd {
+    margin: 0;
+}
+
+#map_image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-left: 20%;
+}
+
+#map_and_apply_home a img {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#map_and_apply_home::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (min-width: 810px) {
+    #information_home {
+        padding: 10px 10px;
+        display: block;
+        float: left;
+        width: 50%;
+        font-size: 1.5em;
+    }
+    
+    #map_and_apply_home {
+        display: block;
+        float: left;
+        padding: 10px 10px;
+        width: 45%;
+        font-size: 1.5em;
+    }
+
+    #welcome_home p:first-child {
+        font-size: 1.7em;
+        font-weight: bold;
+        margin-bottom: 15px;
+        padding-top: 10px;
+    }
+    
+    #welcome_home p {
+        margin-bottom: 1.5em;
+        text-align: justify;
+    }
+}
+@media (max-width: 810px){
+    #information_home {
+        padding: 10px 10px;
+        display: block;
+        float: left;
+        width: 50%;
+        font-size: 1.3em;
+    }
+    #map_and_apply_home {
+        display: block;
+        float: left;
+        padding: 10px 10px;
+        width: 40%;
+        font-size: 1.3em;
+    }
+    #welcome_home p:first-child {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 15px;
+        padding-top: 10px;
+    }
+    
+    #welcome_home p {
+        margin-bottom: 1.3em;
+        text-align: justify;
+    }
+}
+@media (max-width: 590px){
+    #information_home {
+        padding: 10px 10px;
+        display: block;
+        float: left;
+        width: 50%;
+        font-size: 1em;
+    }
+    #map_and_apply_home {
+        display: block;
+        float: left;
+        padding: 10px 10px;
+        width: 40%;
+        font-size: 1em;
+    }
+    #welcome_home p:first-child {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-bottom: 15px;
+        padding-top: 10px;
+    }
+    
+    #welcome_home p {
+        margin-bottom: 1em;
+        text-align: justify;
+    }
+}
+@media (max-width: 405px){
+    #information_home {
+        padding: 10px 10px;
+        display: block;
+        float: left;
+        width: 45%;
+        font-size: 0.7em;
+    }
+    #map_and_apply_home {
+        display: block;
+        float: left;
+        padding: 10px 10px;
+        width: 40%;
+        font-size: 0.7em;
+    }
+    #welcome_home p:first-child {
+        font-size: 1em;
+        font-weight: bold;
+        margin-bottom: 15px;
+        padding-top: 10px;
+    }
+    
+    #welcome_home p {
+        font-size: 0.7em;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+    li a  {
+        font-size: 0.7em;
+    }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="CHRISTIANO Marcello Raphael">
+    <meta name="keywords" content="Visionary Innovation Hub, location, visit, technology park, open day, reservation, innovative spaces, 
+    collaborative workspaces, educational experiences">
+    <meta name="description" content="Visit the Visionary Innovation Hub in Hong Kong! Find our location details and make 
+    a reservation to explore our campus and learn about our innovative programs.">
+    <title>Visionary Innovation Hub - Visit</title>
+    <link rel="stylesheet" href="../CSS/visit.css">
+    <link rel="stylesheet" href="../CSS/overall.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://personal.cs.cityu.edu.hk/~cs2204/2023/cw3cs2204.js"></script>
+    <script src="../script/visit.js"></script>
+</head>
+<body>
+    <header>
+        <img
+            src="../images/logo.png"
+            alt="Visionary Innovation Hub Logo"
+        >              
+        <h1>Visionary Innovation Hub</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./apply.html">Apply</a></li>
+            <li><a href="./visit.html">Visit</a></li>
+            <li><a href="./information.html">Information</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Start of the page content -->
+    <div id="welcome_visit">
+        <p>
+            We warmly invite you to visit us at the Visionary Innovation Hub, located in the Kowloon High-Tech Park. Here, you'll 
+            experience our dynamic and innovative community dedicated to fostering research and entrepreneurship.
+        </p>
+        <p>
+            During your visit, you can explore our cutting-edge facilities, including advanced laboratories, collaborative workspaces, 
+            and specialized innovation labs. These resources are designed to support our faculty, students, and industry partners in 
+            driving technological advancements.
+        </p>
+        <p>
+            You'll have the opportunity to meet our esteemed faculty and industry experts, who are committed to providing essential 
+            knowledge and skills in various fields such as artificial intelligence, biotechnology, and sustainable technology. Our 
+            faculty members are recognized leaders, with their research featured in top-tier journals and conferences.
+        </p>
+        <p>
+            We look forward to welcoming you soon to experience the vibrant atmosphere of the Visionary Innovation Hub and see how we 
+            are shaping the future of innovation.
+        </p>
+    </div>
+    <div id="location_visit">
+        <img src="../images/location.jpg" alt="Map image of Visionary Innovation Hub">
+        <div class="location-details">
+            <h2>Location</h2>
+            <p>Address: Tat Chee Avenue, Kowloon, Hong Kong SAR</p>
+            <p>Tel: (852) 1234 5678</p>
+            <p>Fax: (852) 8765 4321</p>
+            <p>Email: visit@vih.org.hk</p>
+        </div>
+    </div>
+    <div id="reservation_visit">
+        <h2>Visionary Innovation Hub is having an open day! Please make a reservation to visit our campus!</h2>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Booking information</legend>
+                <label for="booking_date">Date:</label>
+                <input type="date" id="booking_date" name="booking_date" value="2024-09-02">
+                <br>
+                <label for="time">Time:</label>
+                <select id="time" name="time">
+                    <option value="09_00_to_10_00">09:00-10:00am</option>
+                    <option value="10_00_to_11_00">10:00-11:00am</option>
+                    <option value="11_00_to_12_00">11:00-12:00am</option>
+                    <option value="12_00_to_1_00">12:00-1:00pm</option>
+                    <option value="1_00_to_2_00">1:00-2:00pm</option>
+                    <option value="2_00_to_3_00">2:00-3:00pm</option>
+                    <option value="3_00_to_4_00">3:00-4:00pm</option>
+                    <option value="4_00_to_5_00">4:00-5:00pm</option>
+                    <option value="5_00_to_6_00">5:00-6:00pm</option>
+                </select>
+                <br>
+                <label for="number_of_visitors">No.of Visitors:</label>
+                <textarea name="number_of_visitors" id="number_of_visitors" rows="1" ></textarea>
+                <br><br>
+                <p id="error_message"></p>
+                <input type="submit" id="checkAvailability" value="CheckAvailability">
+                <input type="reset" id="resetContent" value="Reset">
+            </fieldset>
+        </form>
+    </div>
+    <br>
+    <!-- End of the page content -->
+    <footer>
+        <img src="../images/footer_logo.png" alt="Vissionary Innovation Hub footer logo image"><br>
+        <p>
+            &copy;CityU 2024 - Sources of images and text from Wikipedia and courtesy of icon pack by Icons8 - 
+            designed by <a href="./design.html"><span>CHRISTIANO Marcello Raphael</span></a>
+        </p>
+    </footer>
+</body>
+</html>

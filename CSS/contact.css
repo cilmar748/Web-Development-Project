@@ -1,0 +1,86 @@
+#table_contact p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+#table_contact table, td, tr, th {
+    margin: 0 auto;
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+#table_contact table thead {
+    background-color: #663399; 
+}
+
+#table_contact table thead th {
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+#table_contact table tbody {
+    background-color: #E6E6FA; 
+    color: black;
+}
+
+#table_contact table td:hover {
+    background-color: #D8BFD8; 
+}
+
+#table_contact a {
+    color: black;
+}
+
+@media screen and (max-width: 1024px) {
+    #table_contact table {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    #table_contact p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #table_contact table {
+        width: 95%;
+        font-size: 14px;
+    }
+    
+    #table_contact p {
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #table_contact table, td, tr, th {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #table_contact table {
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    #table_contact p {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    #table_contact table, td, tr, th {
+        padding: 5px;
+    }
+
+    li a {
+        font-size: 0.7em;
+    }
+}

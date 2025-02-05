@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#welcome_visit {
+    background: linear-gradient(rgb(97, 169, 251), rgb(190, 218, 249));
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#welcome_visit p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+#location_visit {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#location_visit img {
+    float: left;
+    width: 50%;
+    height: auto;
+    max-width: 600px;
+    margin-right: 30px; 
+}
+
+.location-details {
+    overflow: hidden; 
+    display: block;
+}
+
+#location_visit h2 {
+    margin-top: 0;
+}
+
+#location_visit p {
+    margin: 10px 0;
+}
+
+#reservation_visit {
+    clear: both;
+    text-align: center;
+}
+
+#reservation_visit h2 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+form label {
+    display: inline-block;
+    width: 120px;
+    margin: 10px 0;
+}
+
+form input[type="date"],
+form select,
+form textarea {
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    margin: 10px 10px 0 0;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
